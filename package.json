@@ -21,7 +21,7 @@
     "dashboard",
     "reports"
   ],
-  "author": "",
+  "author": "Kanmi Obasa",
   "license": "MIT",
   "engines": {
     "node": ">=14.0.0"
