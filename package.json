@@ -1,0 +1,47 @@
+{
+  "name": "looker-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for managing Looker Studio reports via Google Drive API",
+  "main": "dist/index.js",
+  "bin": {
+    "looker-cli": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "clean": "rm -rf dist",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "looker",
+    "looker-studio",
+    "google-drive",
+    "cli",
+    "dashboard",
+    "reports"
+  ],
+  "author": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    ".env.example"
+  ],
+  "dependencies": {
+    "commander": "^14.0.0",
+    "dotenv": "^17.0.1",
+    "googleapis": "^150.0.1",
+    "open": "^10.1.2",
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "@types/commander": "^2.12.0",
+    "@types/node": "^24.0.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
