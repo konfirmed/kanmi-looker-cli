@@ -1,5 +1,5 @@
 {
-  "name": "looker-cli",
+  "name": "kanmi-looker-cli",
   "version": "1.0.0",
   "description": "CLI tool for managing Looker Studio reports via Google Drive API",
   "main": "dist/index.js",

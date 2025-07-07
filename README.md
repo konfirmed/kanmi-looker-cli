@@ -1,4 +1,4 @@
-# Looker CLI
+# kanmi-looker-cli
 
 A powerful command-line interface for managing Looker Studio reports via Google Drive API. Perfect for SEO/performance consultants, dev teams, and dashboard automation workflows.
 
